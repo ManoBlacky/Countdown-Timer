@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Assets/fireworks-1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    color: rgba(0, 255, 255, 0.87);
+}
+
+#container {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+#container h3 {
+    font-weight: 300;
+}
+
+#title {
+    line-height: 90px;
+}
+
+#title h1 {
+    font-weight: 400;
+}
+
+#count {
+    display: flex;
+    gap: 20px;
+    line-height: 40px;
+    letter-spacing: 5px;
+}
+
+.box small {
+    font-weight: 100;
+}
+
+.box h1 {
+    font-weight: 900;
+}
