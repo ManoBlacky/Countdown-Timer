@@ -9,9 +9,9 @@ var stop = setInterval(function timeout() {
 
     const currentDate = new Date();
 
-    const currentYear = new Date().getFullYear();
+    const currentYear = new Date().getFullYear()+1;
 
-    const userValue = new Date(`Oct${currentYear},10`);  // user values ;
+    const userValue = new Date(`jan${currentYear},1`);  // user values ;
 
     const diff = userValue - currentDate;  // find different
 
